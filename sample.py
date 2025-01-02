@@ -8,4 +8,4 @@ def is_prime(num):
 
 # Example usage:
 number = 5
-print(f"Factorial of {number} is {factorial(number)}")
+print(f"Is {number} a prime number? {'Yes' if is_prime(number) else 'No'}")
